@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  background-color: rgb(7, 7, 7);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.main{
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.moviecard{
+  
+  background: darkgray;
+  padding: 0;
+  border:none ;
+  border-radius: 10px;
+  display: flex;
+
+}
+.moviecard .left{
+  width: 30%;
+
+}
+.moviecard .right{
+  width: 80%;
+
+}
+
+.moviecard .title{
+  padding:10px 20px ;
+  font-size: 25px;
+  font-weight: 600 ;
+
+
+}
+
+.moviecard img{
+  width: 150px;
+  height: 280px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.moviecard .plot{
+  margin-top: 20px ;
+  padding: 20px;
+
+}
+
+.moviecard .price{
+  margin-top: 10px ;
+  padding: 10px;
+  font-weight: 500 ;
+  color: rgb(0, 75, 0) ;
+
+}
+
+.footer{
+  position: relative;
+  bottom: 0 ;
+  display: flex ;
+  width:100% ;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.footer .rating{
+  font-size: 20px;
+  font-weight: 600 ;
+  flex: 1 ;
+  color: crimson;
+
+}
+
+.footer .stars{
+  width: 140px ;
+  height: 40px;
+  display: flex;
+
+}
+
+.footer button{
+  font-size: 10px;
+ 
+  text-shadow: none;
+  border-radius: 3px ;
+  border: none ;
+  font-weight: 600 ;
+}
+
+.footer .stars img{
+  width:40px;
+  height:40px;
+  
+}
+.footer .stars  .star-btn-minus{
+
+  margin-top: 25px;
+  width:10px;
+  height:10px;
+  margin-right: 0px;
+
+}
+.footer .stars .star-btn{
+  margin-right: 0px;
+}
+.footer .stars .star-btn-plus{
+
+  margin-top: 25px;
+  width: 10px;
+  height:10px;
+  margin-right: 0px;
+
+}
+.footer .stars .star-count{
+  margin-left: 30px;
+  font-size: xx-large;
+  
+  
+}
+.favourite-btn{
+  background-color: blueviolet;
+  color: #fff;
+  margin: 5px;
+  padding: 7px 10px;
+}
+
+.unfavourite-btn{
+  background-color: rgb(255, 5, 5);
+  color: #fff;
+  margin: 5px;
+  padding: 5px 3px;
+}
+
+.cart-btn{
+  background-color: yellowgreen ;
+  color: white ;
+  margin: 5px ;
+  padding: 7px 10px;
+}
+
+.removecart-btn{
+  background-color:crimson;
+  color: white ;
+  margin: 5px ;
+  padding: 5px 3px;
+
+}
+
